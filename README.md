@@ -75,8 +75,58 @@ Admin privileges are enforced on the backend
 Two tables were created, one is named user and the other is named tickets.
 
 ![Alt Text](usertable.png)
+The users table stores all users details and new users.
 
 ![Alt Text](tickets.png)
+The tickets table stores all tickets requests and message per user.
+
+### Backend Overview
+
+The backend handles all the data, rules, and admin features so the frontend works smoothly.
+
+#### **What It Does**
+
+1. **Manages Users**
+
+   * Keeps track of who is a normal user and who is an admin.
+   * Secures passwords so no one can see them.
+   * Makes sure users can only see and submit their own tickets.
+
+2. **Manages Tickets**
+
+   * Receives tickets from users.
+   * Automatically decides how **urgent** a ticket is based on the category:
+
+     * **Billing → Urgent**
+     * **Support → High**
+     * **Feedback & Uncategorized → Normal**
+   * Sets all new tickets to **Open** status automatically.
+   * Saves everything safely in the database.
+
+3. **Admin Dashboard**
+
+   * Shows all tickets to the admin in order of urgency (Urgent → High → Normal).
+   * Lets the admin update ticket status or priority if needed.
+   * Makes sure admins cannot bypass the system rules.
+
+4. **Keeps Everything Secure**
+
+   * Ensures users cannot see or edit other people’s tickets.
+   * Enforces all rules on the backend, not on the frontend.
+   * Keeps data accurate, safe, and consistent.
+
+---
+
+### **How Data Flows**
+
+1. User submits a ticket →
+2. Backend receives it →
+3. Backend sets priority and status →
+4. Ticket is saved in the database →
+5. Admin dashboard fetches tickets in priority order →
+6. Admin can update ticket status or priority →
+7. Database is updated automatically
+
 
 
 ## Running the code locally
