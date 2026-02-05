@@ -10,6 +10,8 @@ This project focuses on functionality, cbusiness logic, and role-based access, s
 ### User Features
 
 User registration and login: The users will login in to the system. First time users have the opportunity to create a new account and old users may use their previous login details to access the system.
+![Alt Text](loginsy.png)
+
 
 Secure authentication
 
