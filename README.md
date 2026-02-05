@@ -70,10 +70,33 @@ Admin privileges are enforced on the backend
 
 ![Alt Text](isadmin.png)
 
-## Backend
+## Backend (Database)
+
+Two tables were created, one is named user and the other is named tickets.
 
 ![Alt Text](usertable.png)
+
 ![Alt Text](tickets.png)
+
+
+## Running the code locally
+
+To run the backend locally, enter the following command.
+```
+cd backend
+npm install
+npm run dev
+```
+Server runs on ```http://localhost:5000```
+
+To run the frontend locally, enter the following command.
+```
+cd frontend
+npm install
+npm start
+```
+Server runs on ```http://localhost:3000```
+
 
 
 
