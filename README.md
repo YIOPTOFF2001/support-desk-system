@@ -26,5 +26,7 @@ Tickets sorted according to their categories.
 
 ![Alt Text](priority.png)
 
-View previously submitted tickets after logging back in
+Users can view their previosuly submitted tickets and their status.
+
+![Alt Text](view.jpeg)
 
