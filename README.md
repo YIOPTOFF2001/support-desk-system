@@ -68,6 +68,10 @@ admin
 
 Admin privileges are enforced on the backend
 
+![Alt Text](isadmin.png)
+
+
+
 
 
 
