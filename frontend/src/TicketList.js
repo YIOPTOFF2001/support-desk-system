@@ -29,6 +29,7 @@ export default function TicketList({ user, ticketsUpdated }) {
     if (priorityDiff !== 0) return priorityDiff;
     return new Date(b.created_at) - new Date(a.created_at);
   });
+  return (
     <div style={{ marginTop: "20px" }}>
       <h2>Tickets</h2>
       <ul style={{ listStyle: "none", padding: 0 }}>
