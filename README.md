@@ -30,3 +30,15 @@ Users can view their previosuly submitted tickets and their status.
 
 ![Alt Text](view.jpeg)
 
+### Admin Features
+
+Admin-only access: The Amit has excluse access to the admin dashboard. The Admin can view all the tickets sent but an individual user. Tickets are autmatically sorted by the backend in order of priority. All urgent tickets appear at the top, high priority tickets follow and normal priority are last. The admin can open and close user tickets after they have been sorted out.
+
+
+
+
+
+
+
+
+
