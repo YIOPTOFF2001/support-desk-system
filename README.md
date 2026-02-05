@@ -21,6 +21,7 @@ Submit support tickets: When the users logs in, they have the ability to create 
 
 ![Alt Text](user.jpeg)
 
+![Alt Text](priority.png)
 
 View previously submitted tickets after logging back in
 
