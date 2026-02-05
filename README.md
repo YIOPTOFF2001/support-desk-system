@@ -17,13 +17,8 @@ Registration page for new users.
 
 ![Alt Text](registersy.png)
 
+Submit support tickets: When the users logs in, they have the ability to create and submit tickets to the admin. The user gets to pick the ticket category, where the system dictacts wether it's a high priority ticket, low priority ticket, normal level ticket or an urgent one that needs to be attended first.
 
-
-Secure authentication
-
-Submit support tickets
-
-Choose a ticket category
 
 View previously submitted tickets after logging back in
 
