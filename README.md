@@ -36,6 +36,39 @@ Admin-only access: The Amit has excluse access to the admin dashboard. The Admin
 
 ![Alt Text](adminonly.jpeg)
 
+## Business Logic 
+
+Ticket priority is automatically assigned by the system, not by users or admins:
+
+| Category | Priority| 
+|----------|----------|
+| Billing| Urgent| 
+| Support| High| 
+|Feedback| Normal|
+|Uncategorized| Normal|
+
+This ensures that there is consistent triage and that important issues don't get burried under less important issues.
+
+## Tech Stack
+Frontend: React, CSS, JavaScript
+Backend: Node.js, Express, SQLite, CORS, bcrypt ( password hashing)
+
+
+## Authentication & Roles
+
+Users authenticate with email and password
+
+Passwords are hashed before storage
+
+Each user has a role:
+
+user
+
+admin
+
+Admin privileges are enforced on the backend
+
+
 
 
 
